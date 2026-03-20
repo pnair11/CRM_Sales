@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/data_dictionary.csv",
+			"url": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/products.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
