@@ -1,0 +1,12 @@
+{
+	"name": "data_dictionary_ls",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/data_dictionary.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
