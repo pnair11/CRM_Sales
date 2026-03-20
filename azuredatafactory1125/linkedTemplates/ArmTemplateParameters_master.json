@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredatafactory1125"
+		},
+		"AzureDataLakeStorage_Gen2_11_ls_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricksDeltaLake_11_ls_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase_11_ls_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_Gen2_11_ls_properties_typeProperties_url": {
+			"value": "https://adlsgen2storage11.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase_11_ls_properties_typeProperties_server": {
+			"value": "hospitalserver11.database.windows.net"
+		},
+		"AzureSqlDatabase_11_ls_properties_typeProperties_database": {
+			"value": "@{linkedService().db_name}"
+		},
+		"AzureSqlDatabase_11_ls_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"Coaches_ls_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Coaches.csv"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/blob/main/data/Athletes.csv"
+		},
+		"HttpServer2_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Athletes.csv"
+		},
+		"HttpServer3_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/EntriesGender.csv"
+		},
+		"HttpServer4_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Teams.csv"
+		},
+		"Medals_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Medals.csv"
+		},
+		"accounts_ls_properties_typeProperties_url": {
+			"value": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/accounts.csv"
+		},
+		"data_dictionary_ls_properties_typeProperties_url": {
+			"value": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/data_dictionary.csv"
+		},
+		"products_ls_properties_typeProperties_url": {
+			"value": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/products.csv"
+		},
+		"sales_pipeline_ls_properties_typeProperties_url": {
+			"value": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/sales_pipeline.csv"
+		},
+		"sales_teams_ls_properties_typeProperties_url": {
+			"value": "https://github.com/pnair11/CRM_Sales/raw/refs/heads/main/sales_teams.csv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
