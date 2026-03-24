@@ -1,0 +1,9 @@
+{
+	"name": "azuredatafactory1125",
+	"location": "canadaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5618097f-9dc0-46b7-8d08-f46457e9f539",
+		"tenantId": "99fa47d8-b6ec-4981-b51b-8b1044b4144b"
+	}
+}
